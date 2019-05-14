@@ -41,10 +41,11 @@ iframe{
 
 body {
     font-family: sans-serif;
+    background-color: black;
     
   }
 
-.gradient {
+.sound0 {
   position: absolute;
   width: 100%;
   height: 100%;
