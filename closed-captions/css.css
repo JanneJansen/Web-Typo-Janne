@@ -43,10 +43,12 @@ body {
     font-family: sans-serif;
     
   }
+
 .gradient {
+  position: absolute;
   width: 100%;
   height: 100%;
-  animation: pulse 22s infinite;
+  animation: pulse 20s infinite;
 }
 
 @keyframes pulse {
@@ -54,7 +56,7 @@ body {
     background-color: black;
   }
   100% {
-    background-color: lightgrey;
+    background-color: lightgray;
   }
 }
 
@@ -62,6 +64,7 @@ html,
 body {
   height: 100%;
 }
+
 
 
         
@@ -140,7 +143,8 @@ You probably want to change the styling.
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
-	transition: 0s 1.3s;
+	transition: 0s 1.9s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 1em;
     color: grey;
@@ -149,6 +153,7 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 2.5s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 1em;
     color: grey;
@@ -157,6 +162,7 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 2.8s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 1em;
     color: grey;
@@ -165,6 +171,7 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.1s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 1em;
     color: grey;
@@ -174,25 +181,32 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(12) {
 	opacity: 1;
 	transition: 0s 3.6s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 1em;
     color: grey;
 
 }
 
+.p1 span {
+    opacity: 0;
+}
+	
 
-.p1.on span:nth-of-type {
+.p1.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
+    margin-right: -.25em;
     font-weight: 400;
     font-size: 1em;
     color: salmon;
 
 }
 
-.p1.on span:nth-of-type(1) {
+.p1.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
+    margin-right: -.25em;
     font-weight: 400;
     font-size: 1em;
     color: grey;
@@ -204,52 +218,61 @@ You probably want to change the styling.
 }
 
 
-.p2.on span:nth-of-type {
+.p2.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 5em;
     color: grey;
 }
 
-.p2.on span:nth-of-type(1) {
+.p2.on span:nth-of-type(2) {
 	opacity: 1;
-	transition: 0s;
+	transition: 0s .4s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 5em;
     color: grey;
 }
 
 
-.p2.on span:nth-of-child(2) {
+.p2.on span:nth-of-child(3) {
 	opacity: 1;
 	transition: 0s .8s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 5em;
     color: grey;
 }
 
+.p3 span {
+	opacity: 0;
+}
 
 .p3.on span:nth-of-type {
 	opacity: 1;
 	transition: 0s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 5em;
     color: grey;
 }
 
 
-.p2.on span:nth-of-type(1) {
+.p3.on span:nth-of-type(1) {
 	opacity: 1;
 	transition: 0s .4s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 5em;
     color: grey;
 }
 
-.p2.on span:nth-of-type() {
+.p3.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .8s;
+    margin-right: -.25em
     font-weight: 400;
     font-size: 5em;
     color: grey;
