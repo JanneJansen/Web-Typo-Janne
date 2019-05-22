@@ -36,8 +36,8 @@ body {
     text-transform: uppercase;
     font-size: 1.5em; 
     color: darkblue;
-/*    content:"\2190";*/
-
+    
+    
 }
 
 
@@ -737,7 +737,7 @@ animation: blurry2 2s 1 ;}
 
     
 .sound22 iframe{
-    animation: iframescale 15s forwards;
+    animation: iframescale 40s ease-out forwards;
 }
 
 @keyframes iframescale{
@@ -746,10 +746,10 @@ animation: blurry2 2s 1 ;}
         transform: none;
     }
     
-    50%{ transform: scale(1.2);
+    99%{ transform: scale(0.5);
 }
     100%{
-        transform: scale(0.80);
+        transform: none;
     }
 }
 
@@ -2158,6 +2158,7 @@ opacity: 1;
 	opacity: 1;
 	transition: 0s;
     font-weight: 400;
+    margin-left: 100px; 
 }
 
 .p41.on span:nth-of-type(2) {
@@ -2165,6 +2166,8 @@ opacity: 1;
 	transition: 0s .5s;
     font-weight: 400;
     font-size: 1em;
+    margin-left: 100px; 
+    
     
 }
 
@@ -2173,6 +2176,7 @@ opacity: 1;
 	transition: 0s .7s;
     font-weight: 400;
     font-size: 1em;
+    margin-left: 100px; 
     
 }
 
@@ -2180,12 +2184,16 @@ opacity: 1;
 
 .p42 span {
 	opacity: 0;
+    margin-left: 100px; 
+    
 }
 
 .p42.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
     font-weight: 400;
+    margin-left: 100px; 
+    
     
 }
 
@@ -2194,6 +2202,7 @@ opacity: 1;
 	transition: 0s .5s;
     font-weight: 400;
     font-size: 1em;
+    margin-left: 100px; 
     
 }
 
@@ -2202,17 +2211,21 @@ opacity: 1;
 	transition: 0s .7s;
     font-weight: 400;
     font-size: 1em;
+    margin-left: 100px; 
+    
     
 }
 
 .p43 span {
 	opacity: 0;
+
 }
 
 .p43.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
     font-weight: 400;
+    margin-left: 100px; 
     
 }
 
@@ -2221,6 +2234,7 @@ opacity: 1;
 	transition: 0s .5s;
     font-weight: 400;
     font-size: 1em;
+    margin-left: 100px; 
     
 }
 
@@ -2229,6 +2243,7 @@ opacity: 1;
 	transition: 0s .7s;
     font-weight: 400;
     font-size: 1em;
+    margin-left: 100px; 
     
 }
 
@@ -2317,6 +2332,7 @@ opacity: 1;
 
 .p47 span {
 	opacity: 0;
+    
 }
 
 .p47.on span:first-of-type {
@@ -2330,6 +2346,7 @@ opacity: 1;
 	opacity: 1;
 	transition: 0s .2s;
     font-weight: 400;
+   
     
 }
     
@@ -2337,6 +2354,7 @@ opacity: 1;
 	opacity: 1;
 	transition: 0s .4s;
     font-weight: 400;
+    
     
 }
 
