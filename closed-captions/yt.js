@@ -6,7 +6,9 @@ function onYouTubeIframeAPIReady() {
 		height: 400,
 		videoId: 'vrP-_T-h9YM',
 		playerVars: {
-			color: 'white'
+			color: 'white',
+            start:'0',
+            end:'86'
 			//autoplay: '1'
 			//playlist: 'taJ60kskkns,FG0fTKAqZ5g'
 		},
@@ -54,7 +56,7 @@ function updateTimerDisplay(){
 		i++;
 	}
 
-	if ( t < 136.1) {
+	if ( t < 86) {
 		setTimeout(() => {
 			updateTimerDisplay();
 		}, 100);
