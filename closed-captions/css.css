@@ -736,6 +736,22 @@ animation: blurry2 2s 1 ;}
 }
 
     
+.sound22 iframe{
+    animation: iframescale 15s forwards;
+}
+
+@keyframes iframescale{
+    
+    0%{
+        transform: none;
+    }
+    
+    50%{ transform: scale(1.2);
+}
+    100%{
+        transform: scale(0.80);
+    }
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
