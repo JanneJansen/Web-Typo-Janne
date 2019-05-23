@@ -1,59 +1,46 @@
-# Responsive Typography, 2018/2019
+#Film fragement 
+Ik heb gewerkt met het film fragment van de Blade Runner.  Het fragment wordt gestopt op sec.86. Hier wordt het eerste fragment afgesloten. Ik wilde me focussen op een kortere tijd omdat ik geen css ervaring had.
+Ik heb hierbij gekozen voor het systeemfont de restrictie hiervan vond ik fijn. Ik. Vond het een uitdaging om met zo’n simpel font wel de nuances over te brengen. Ik wil daarom spelen met het canvas, kleur, formaat en animatie.
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+#Karakter
+voice1: De computer stem wordt weergegeven in caps lock  met een formaat van 1.5em. De letter heeft een regular stijl. Ik wilde het een scherpe en kille uitstraling geven. De kleur van de computer stem is in het begin grijs. Dit versterkt de uitstraling die ik wil overbrengen. Hiernaast heeft het contrast met de achtergrond. Later wordt de computerstem donker blauw. Dit heeft nog steeds de goede uitstraling en contrasteert met de witte achtergrond.
 
-Dat kan visueel sterker. 
+Voice2: De menselijke hoofdrol stem wordt weergeven in italic met een text-shadow in het formaat 2.2em. De stem heeft een roze-witachtige kleur. Ik wilde de kleur een warmere en zachtere uitstraling geven om de menselijke emotie over te brengen. Wel heeft de letter een donker randje omdat ik de persoon mysterieus en een beetje duister over vind komen.  
+Met de afwijkende kleur keuzes wilde ik bepaalde woorden ordenen. In deze kleuren wilde ik de rust, emotie en toch mysterieusheid weergeven.
 
-En dat gaan jullie doen.
+Voice3:  Deze stem komt maar een keer in het fragment. Hierbij scheld hij. Ik heb gekozen voor een caps lock en formaat 1em. De kleur is wit en contracteert met de rest van de tekst en de rode achtergrond die op dat moment te voorschijn komt. Ik wilde de letter niet te groot maken omdat de persoon het een beetje ingehouden zegt.
 
-## Leerdoelen
+Voice4: Aan het eind van het fragment wordt en afgesloten. De spanning en achtergrond muziekjes zijn verdwenen. Ik wil de ontlading en de simpliciteit ook weergeven in de letter. Daarom is het simpel zwart.
 
-- Je kan de kennis over vormgeving die je hebt geleerd tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele typografische beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt het experiment niet geschuwd
+#Plaatsing
+De computer text is links boven weergeven om de afstand die in het fragment wordt gevoelt te laten zien. De mensen stem staat dichter bij het fragment door de overgebrachte emotie. 
 
-## Typografische restricties
+CELLS wordt verticaal weergeven omdat ik het antwoord in een andere richting vind klinken.
 
-Je *moet* kiezen, en je keuze moet je onderbouwen:
+#Animatie 
+Er zijn verschillende animaties toegepast in het video fragment.
 
-### Optie 1: Systeemfont
+  0. Achtergrond: vanaf het begin van het fragment gaat er een gradient lopen. Deze loopt mee met de sfeer van het     fragment.
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. In dit geval heb je beschikking over normal, **bold** en _italic_.
+1. computerstem: De letters knipperen voor een technische sfeer. Ook de onrustige sfeer het gesprek van het fragment wilde ik zo weergeven.
+2. Stippen: Er worden in de achtergrond stippen weergegeven die de achtergrond muziek weergeven. Ik heb hier het ritme van de harde bas aangehouden.
+3. Trillend scherm: Bij de buzzer trilt het scherm mee.
+4. Sirene: bij de sirene is er om het iframe een shadow van rood en blauw weergegeven. Dit geeft het licht ven een sirene weer.
+5. Verkleinen/blur: Bij een piep wordt het beeld verkleind in het ritme van de piep. Ook wordt er een blur toegepast omdat het geluid afleidend is van het fragment.
+6. Fuck-off: De achtergrond kleurt kort rood bij het scheld wordt om de spanning weer te geven.
+7. Achtergrond geluid : er worden vaag woorden weergegeven om de achtergrond geluiden (ruis) weer te geven.
+8. Verkleinen beeld. Hier wordt er met een lange piep spanning opgebouwd dit laat ik zine met de verkleining van het beeld.
 
-### Optie 2: Brenner
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+#HTML
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn.
+Video wrapper: 
+deze code heb ik toegevoegd om mijn video responsie te maken. Met deze code wordt de video in een ander element geplaatst. Deze beweegt mee met het formaat van het scherm. Hierin wordt de video absoluut geplaatst. 
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+Bronnen:
+Beschreven in code.
 
-## Het fragment
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
 
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment
-
-Je kan er ook voor kiezen om een eigen, beter fragment te gebruiken. Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
+ 
